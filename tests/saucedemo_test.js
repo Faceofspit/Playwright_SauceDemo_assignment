@@ -1,7 +1,7 @@
 const { chromium } = require('playwright');
 const fs = require('fs');
 const LoginPage = require('../pages/LoginPage');
-const ProductsPage = require('../pages/ProductsPage');
+const ProductsPage = require('../pages/ProductsPage').default;
 const CartPage = require('../pages/CartPage');
 
 (async () => {
